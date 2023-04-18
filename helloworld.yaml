@@ -21,6 +21,6 @@ spec:
 apiVersion: project.openshift.io/v1
 description: "nginx-hello-world"
 displayName: nginx-hello-world
-kind: ProjectRequest
+kind: Project
 metadata:
     name: nginx-hello-world
