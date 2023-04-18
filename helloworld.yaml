@@ -17,3 +17,10 @@ spec:
       containers:
         - name: nginx
           image: "image-registry.openshift-image-registry:5000/YOUR_NAMESPACE/nginx-hello-world"
+          
+apiVersion: project.openshift.io/v1
+description: "nginx-hello-world"
+displayName: nginx-hello-world
+kind: ProjectRequest
+metadata:
+    name: nginx-hello-world
